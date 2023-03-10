@@ -74,8 +74,10 @@ public class CustomList extends ArrayAdapter<City> {
      */
 
     public int countCities() {
+
         return cities.size();
     }
+
     /**
      * Checks if a city is present in the list. If it does then remove it from the list, if not then throw an exception
      * @return
